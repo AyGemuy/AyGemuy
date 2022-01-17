@@ -34,8 +34,12 @@
 
 ## ```How to install```
 
-[`Click Here For Tutorial`](https://youtu.be/BCY6V2PDDEA)<br>
 
+[`Click Here For Tutorial`](https://youtu.be/BCY6V2PDDEA)<br>
+[`Web 1`](http://wudysoft.iceiy.com)<br>
+[`Web 2`](http://wudysoft.zya.me)<br>
+[`Web 3`](http://wudy.hstn.me)<br>
+      
 ## ```Thanks To```
 - [`Wudysoft`]()
 
