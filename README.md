@@ -36,9 +36,20 @@
 
 
 [`Click Here For Tutorial`](https://youtu.be/BCY6V2PDDEA)<br>
-[`Web 1`](http://wudysoft.iceiy.com)<br>
-[`Web 2`](http://wudysoft.zya.me)<br>
-[`Web 3`](http://wudy.hstn.me)<br>
+```AEON FREE```
+[`Go to website`](http://web.aeonfree.com)<br>
+🕵️ [`Web 1`](http://wudysoft.iceiy.com)<br>
+🕵️ [`Web 2`](http://wudysoft.zya.me)<br>
+🕵️ [`Web 3`](http://wudy.hstn.me)<br>
+
+```INFINITY FREE```
+[`Go to website`](http://app.infinityfree.net)<br>
+🕵️ [`Web 1`](http://wudysoft.lovestoblog.com)<br>
+🕵️ [`Web 2`](http://wudysoft.rf.gd)<br>
+🕵️ [`Web 3`](http://wudysoft.great-site.net)<br>
+
+
+
       
 ## ```Thanks To```
 - [`Wudysoft`]()
