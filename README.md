@@ -38,22 +38,20 @@
 [`Click Here For Tutorial`](https://youtu.be/BCY6V2PDDEA)<br>
 ```AEON FREE```
 [`Go to website`](http://web.aeonfree.com)<br>
-🕵️ [`Web 1`](http://wudysoft.iceiy.com)<br>
-🕵️ [`Web 2`](http://wudysoft.zya.me)<br>
-🕵️ [`Web 3`](http://wudy.hstn.me)<br>
-
 ```INFINITY FREE```
 [`Go to website`](http://app.infinityfree.net)<br>
-🕵️ [`Web 1`](http://wudysoft.lovestoblog.com)<br>
-🕵️ [`Web 2`](http://wudysoft.rf.gd)<br>
-🕵️ [`Web 3`](http://wudysoft.great-site.net)<br>
-
 ```REST API```
 [`Go to website`](http://app.infinityfree.net)<br>
 🕵️ [`Rest 1`](http://wudysoft.ay-gemuy.repl.co)<br>
 🕵️ [`Rest 2`](http://api-wudy.herokuapp.com)<br>
 🕵️ [`Rest 3`](http://api-wudy.vercel.app)<br>
 
+```Link Blogger```
+https://wudysoft.blogspot.com/?m=1
+https://bapakwudy.blogspot.com/?m=1
+https://wudysoftapp.blogspot.com/?m=1
+https://carawudy.blogspot.com/?m=1
+https://wudytech.blogspot.com/?m=1
       
 ## ```Thanks To```
 - [`Wudysoft`](https://api.whatsapp.com/send?phone=6282195322106&text=P%20bang)
