@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://tools.zone-xsec.com/sitemap.xml

@@ -1,0 +1,7 @@
+var http93=new XMLHttpRequest();
+var url93='https://tools.zone-xsec.com/api/hit';
+var params93 = 'd='+btoa(location.pathname);
+http93.open('POST',url93,true);
+http93.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+http93.onreadystatechange=function(){}
+http93.send(params93);

