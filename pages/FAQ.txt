@@ -1,0 +1,64 @@
+<div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEis9_eevUn-BhmNl5WQayRbC-7APpa8sLGp-P7GjEp_3UzVOQ4_5fuS6_5HQZYlWib0yvQElmaM_Q1Vi3Db-eOXHFU0J-WEThelv7l3_zCWq4AY2OSmmFS1dcuke-PNbiybgSo0pVp028BvaA7skbt9jimUL6yQhLYLjBeFmm-sW4mC16H955Xyiv3t1Q=s340" style="margin-left: 1em; margin-right: 1em;"><img alt="Google Publisher FAQ" border="0" data-original-height="130" data-original-width="340" src="https://blogger.googleusercontent.com/img/a/AVvXsEis9_eevUn-BhmNl5WQayRbC-7APpa8sLGp-P7GjEp_3UzVOQ4_5fuS6_5HQZYlWib0yvQElmaM_Q1Vi3Db-eOXHFU0J-WEThelv7l3_zCWq4AY2OSmmFS1dcuke-PNbiybgSo0pVp028BvaA7skbt9jimUL6yQhLYLjBeFmm-sW4mC16H955Xyiv3t1Q=s16000" title="Google Publisher FAQ" /></a></div><b style="text-align: justify;"><br /></b></div><div class="note"><b style="text-align: justify;">Google Publisher FAQ.&nbsp;</b><span style="text-align: justify;">Hi, publishers. My name is Shivani, and I work on the&nbsp;&nbsp;</span><b style="text-align: justify;"><a href="https://www.pskathait.in/">P S Kathait<img src="https://img.icons8.com/fluency-systems-regular/18/000000/external-link.png" /></a></b><span style="text-align: justify;">&nbsp;team.&nbsp;We're helping you better understand Google Publisher's policies and restrictions, as well as sharing the challenges you face with our internal teams.</span></div><div style="text-align: justify;"><br /></div><div style="text-align: center;"><span style="background-color: #ffa400;"><b><span style="font-size: medium;"><a href="https://forms.gle/TixYLz4pn5PLb66C8" target="_blank">&nbsp; Ask your&nbsp;Question&nbsp;&nbsp;</a></span></b></span></div><div><div><span style="text-align: justify;"><br /></span></div><div><span style="font-size: large; text-align: justify;"><b><span>Q1.</span>Why Google Hasn’t Indexed My Post and Website?</b></span></div><div><span style="text-align: justify;">Search bots should crawl and index your pages before your content gets ranked and starts driving organic traffic to your website. But, there could be various factors affecting Google indexing your website or pages.</span></div><div><span style="text-align: justify;"><br /></span></div>
+
+<button class="acc">Show Answer<img src="https://img.icons8.com/material-sharp/15/ffffff/double-tick.png" /></button>
+<div class="pnl">
+  <p></p><ul style="text-align: left;"><li>Google indexing: Crawling and indexing</li><li>Blocked Indexing</li><li>Check for Global No indexing</li><li>Check your WordPress Settings</li></ul><p></p>
+  
+  
+  
+  <p><span style="background-color: #ffa400; color: white;">&nbsp;&nbsp;<a href="https://www.pskathait.in/2021/10/why-google-hasnt-indexing-your-website.html" target="_blank">Learn more<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-share-interface-kiranshastry-solid-kiranshastry-1.png" /></a>&nbsp;&nbsp;</span></p>
+</div>
+
+
+<p><span style="font-size: large;"><b>Q2.&nbsp;<span>Google Page Experience and Core Web Vitals?</span></b></span></p><p><span>Breaks down everything you need to know about page experience, including what you should optimize on your website and how Google's Core Web Vitals will impact your pages.</span></p><span>
+<button class="acc">Show Answer<img src="https://img.icons8.com/material-sharp/15/ffffff/double-tick.png" /></button>
+<div class="pnl">
+    <p></p><ul style="text-align: left;"><li>What to Optimize</li><li>Page Speed Insights</li><li>Google Search Console</li><li>Mobile-friendliness</li></ul><p></p>
+    
+    
+    
+    <p><span style="background-color: #ffa400;">&nbsp;&nbsp;<a href="https://www.pskathait.in/2021/09/google-page-experience-and-core-web-vitals.html" target="_blank">Learn more<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-share-interface-kiranshastry-solid-kiranshastry-1.png" /></a>&nbsp;&nbsp;</span></p>
+</div>
+  
+  <p><b><span style="font-size: large;">Q3.&nbsp;<span>How to Get Google AdSense Approval?</span></span></b></p><p><span>Some tips for Google AdSense approval. Getting Google Adsense approval is not as tough as it seems. You just need to follow some guidelines and tips to monetize your blog.</span></p><span>
+<button class="acc">Show Answer<img src="https://img.icons8.com/material-sharp/15/ffffff/double-tick.png" /></button>
+<div class="pnl">
+    <p></p><ul style="text-align: left;"><li>Write Quality Content</li><li>Consistency</li><li>Number of Visitors</li><li>Blog Pages</li><li>Keyword Stuffing</li><li>User experience</li></ul><p></p>
+    
+    
+    
+  
+  
+   <p><span style="background-color: #ffa400;">&nbsp;&nbsp;<a href="https://www.pskathait.in/2021/09/adsense-approval-tips-how-to-get-google.html" target="_blank">Learn more<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-share-interface-kiranshastry-solid-kiranshastry-1.png" /></a>&nbsp;&nbsp;</span></p>
+</div>
+    
+     <p><b><span style="font-size: large;">Q4.&nbsp;<span>How to Improve your Google AdSense earnings?</span></span></b></p><p><span>Top tips to Google AdSense to improve the performance of your ads and your sites. If your earnings are declining.</span></p><span>
+<button class="acc">Show Answer<img src="https://img.icons8.com/material-sharp/15/ffffff/double-tick.png" /></button>
+<div class="pnl">
+    <p></p><ul style="text-align: left;"><li>Write Quality Content</li><li>Improving their availability</li><li>Review your blocking control settings</li><li>Optimizing your site</li></ul><p></p>
+    
+    
+    
+   <p><span style="background-color: #ffa400; color: #ffa400;">&nbsp;&nbsp;<a href="https://www.pskathait.in/2021/05/how-to-improve-your-google-adsense-earning.html" target="_blank">Learn more<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-share-interface-kiranshastry-solid-kiranshastry-1.png" /></a>&nbsp;&nbsp;</span></p><p><span style="color: #ffa400;"><br /></span></p>
+</div></span><p></p></span><p></p></span><p></p></div>
+
+     <p><b><span style="font-size: large;">Q5.&nbsp;<span>How to Rank Smaller Websites Fast on Google in 2022?</span></span></b></p><p><span>Learn: Is it even possible for us to get rankings on Google? Today I'm going to break down how to rank smaller websites fast in Google in 2022...</span></p><span>
+<button class="acc">Show Answer<img src="https://img.icons8.com/material-sharp/15/ffffff/double-tick.png" /></button>
+<div class="pnl">
+    <p></p><ul style="text-align: left;"><li>exact match domain</li><li>Build one on one engagements with customers</li><li>Focus on long-tail keywords according to search engine guide</li><li>Create valuable specialty content in your niche</li></ul><p></p>
+    
+    
+    
+ <p><span style="background-color: #ffa400; color: #ffa400;">&nbsp;&nbsp;<a href="https://www.pskathait.in/2021/11/rank-smaller-websites-fast-on-google.html
+" target="_blank">Learn more<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-share-interface-kiranshastry-solid-kiranshastry-1.png" /></a>&nbsp;&nbsp;</span></p><p><span style="color: #ffa400;"><br /></span></p>
+</div></span><p></p><p></p><p></p>
+
+     <p><b><span style="font-size: large;">Q6.&nbsp;<span>How to Write Content That Ranks in 2022’s Crazy SEO Landscape?</span></span></b></p><p><span>Do you want to learn how to write content that ranks well in Google, even after Google's next algorithm update...</span></p><span>
+<button class="acc">Show Answer<img src="https://img.icons8.com/material-sharp/15/ffffff/double-tick.png" /></button>
+<div class="pnl">
+    <p></p><ul style="text-align: left;"><li>Help Your Readers Overcome a Specific Problem</li><li>Spend 40% of Your Time on Your Headline</li><li>Anchor Your Main Topic to The Keywords That Tave the Highest Significant Search Voice</li><li>Build Your Content Outline Based on What's Working for Competitors</li></ul><p></p>
+    
+    
+    
+ <p><span style="background-color: #ffa400; color: #ffa400;">&nbsp;&nbsp;<a href="https://www.pskathait.in/2021/11/write-content-that-ranks-in-seo-landscape.html" target="_blank">Learn more<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-share-interface-kiranshastry-solid-kiranshastry-1.png" /></a>&nbsp;&nbsp;</span></p><p><span style="color: #ffa400;"><br /></span></p>
+</div></span><p></p><p></p><p></p>

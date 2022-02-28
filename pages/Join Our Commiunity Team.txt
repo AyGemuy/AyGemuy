@@ -1,0 +1,52 @@
+<div class="about-container">
+      <div class="profile-image">
+        <img alt="" src="https://1.bp.blogspot.com/-4K1bdaHAXkA/YT4ToG3oIkI/AAAAAAAAEA0/jEmm7FDwXuckHRdDfSdtVcYyCak87hMhgCLcBGAsYHQ/s512/The%2BKathait.png" />
+        </div>
+
+      <div class="description">
+        <div class="note"><p>Hello my name is P S Kathait, I want to inform you that we are going to set up our team page soon,If any of you would like to join our team please send us a personal message. or you can mail us.(&nbsp;<a href="mailto:pskathait64@gmail.com">pskathait64@gmail.com</a>&nbsp;)</p><p>Remember, along with the message, do send the name and URL of your website and about.</p><p><b>Required***</b></p><p></p><ul style="text-align: left;"><li>Email*</li><li>Website Name*</li><li>Website URL*</li><li><span face="Arial, Helvetica, sans-serif" style="color: #222222; font-size: small;">Correct name along with your photo*</span></li><li>About your Blog*</li></ul><div>Thank you...</div>
+        <p>
+         </p>Join Our Community Team. ( <a href="https://www.pskathait.in/p/contact.html" target="_blank">Join Now!</a>)
+      <p></p></div>
+
+      <div class="projects-container">
+        <div class="project">
+          <h3 class="project-name">We Have</h3>
+          <div class="project-number odometer websites-designed">0</div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-name">Publish</h3>
+          <div class="project-number odometer apps-developed">0</div>
+        </div>
+      </div>
+
+      <h2 class="our-team-heading">Our Team</h2>
+
+      <div class="our-team">
+        <div class="team-member">
+          <img alt="" src="https://blogger.googleusercontent.com/img/a/AVvXsEh5iXqkeHkiV0I-CYdcdF4Qc3h_e52BJ3YT0SJ2u0XjfLfDFhFp0-zgI9bylA7Enlt2_4Efs9zT-CzoEh7Ze4rfIkIzlHJmw57YL53uOC_2nqPtTsC-xJy4ahCqI5ACrmGBVXcf32lRAouq_IPrrVEtWN4VmlJq-ERUu_dkbAbqwVNgmpXIx0B0WeBNzA" />
+          <div class="designation">
+            <strong><a href="https://www.defencepointprep.com/" rel="nofollow" target="_blank">Pradeep Patodia</a></strong>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img alt="" src="https://blogger.googleusercontent.com/img/a/AVvXsEgdpOiLjkyJ6ril4FJeFfn_qZLG6RgVKdG7pyp1-_nRJxQzzcWw-oYEPAedYlvbQV6DsaWh4ue3q3NIJVpPEPLRhNz80OSLfQHmcD70WedOpA256lhF7kLUXMJ9yHyW1_P2GmoOaJ6L-cgzySWd9hihdDuEQD7wrf6Sf0mlPb4AI9GY4ZZS5VgwbGqUaA" />
+          <div class="designation">
+            <strong><a href="https://www.rohossobangla.com/" rel="nofollow" target="_blank">Tanvir Hasan</a></strong>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img alt="" src="https://blogger.googleusercontent.com/img/a/AVvXsEiH624V5g9TGbuchX5mz8o5ULR2AYaffowvuaJ3STfP6HmoftxYQRXx6mqL452dT8uDJAACitx7ewu8VxxfDkbpFQ9amZWhGRgDJUQj0eSSKUotNgBmVlQTlvpdBWtxdRbpGNbHmfN0QFgYiAaun2CLVICjG2GkiIkVjuk9t3jKgm6M-xfusgVEpMCbjg" />
+          <div class="designation">
+            <strong><a href="https://www.two9careers.in/" rel="nofollow" target="_blank">Sagar Vishnoi</a></strong>
+          </div>
+        </div>
+      </div>
+   <div class="our-mission">
+        <img alt="" class="quote-icon" src="https://blogger.googleusercontent.com/img/a/AVvXsEg-y8SbFwvxR1LTaYbgnzDOmh4xFcnsSrEmO3LN7Cfu_toVzZw2H6Wq-UDaEP4n8MbVP-e4apF9o38XYtv0fwsdixKSpCTDFZVjNMcqUOmGgNQw7biNYvSs9JKdAGGFJo3N5qy15XR2-d8vDwDnVD5uGSbes-BlB89-KdhjAIiDMVElHSj_hsS4Chmlsg=s16000" />
+        <p>Our mission is to provide the best services to our clients.</p>
+      </div>
+    </div></div>
