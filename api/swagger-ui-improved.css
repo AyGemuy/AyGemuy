@@ -18,7 +18,7 @@ html, body {
   font-family: "Rubik Wet Paint", sans-serif;
   box-sizing: border-box;
   position: relative;
-  z-index: 1;
+  z-index: 999;
 }
 
 .swagger-ui::before {
@@ -30,7 +30,7 @@ html, body {
   bottom: 0;
   background: url('https://wallpapercave.com/wp/wp14472860.png') no-repeat center center fixed;
   background-size: cover;
-  z-index: 0;
+  z-index: -999;
 }
 
 .swagger-ui .topbar {
