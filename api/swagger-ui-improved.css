@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint:wght@300;400;500;600;700&display=swap");
 
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
 .swagger-ui {
   height: 100vh;
-  width: 100%;
-  max-width: 1200px;
-  overflow: auto;
-  background: rgba(255, 255, 255, 0.8); /* Mengatur latar belakang dengan transparansi 80% */
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -13,8 +17,8 @@
   color: #3b4151;
   font-family: "Rubik Wet Paint", sans-serif;
   box-sizing: border-box;
-  position: relative; /* Menambahkan posisi relatif untuk memastikan latar belakang tetap di belakang */
-  z-index: 1; /* Menentukan urutan tumpukan agar ini di atas latar belakang */
+  position: relative;
+  z-index: 1;
 }
 
 .swagger-ui::before {
@@ -25,18 +29,8 @@
   right: 0;
   bottom: 0;
   background: url('https://wallpapercave.com/wp/wp14472860.png') no-repeat center center fixed;
-  background-size: cover; /* Menyesuaikan ukuran latar belakang */
-  z-index: 0; /* Menempatkan latar belakang di belakang elemen lain */
-}
-
-.swagger-ui html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  line-height: 1.25;
-}
-
-.swagger-ui body {
-  margin: 0;
+  background-size: cover;
+  z-index: 0;
 }
 
 .swagger-ui .topbar {
