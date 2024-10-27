@@ -1,23 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint:wght@300;400;500;600;700&display=swap");
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: url('https://wallpapercave.com/wp/wp14472860.png') no-repeat center center fixed;
-  background-size: cover;
-}
-
 .swagger-ui {
   height: 100vh;
+  width: 100%;
+  max-width: 1200px;
   overflow: auto;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8); /* Mengatur latar belakang dengan transparansi 80% */
   backdrop-filter: blur(10px);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 20px;
   color: #3b4151;
   font-family: "Rubik Wet Paint", sans-serif;
+  box-sizing: border-box;
+  position: relative; /* Menambahkan posisi relatif untuk memastikan latar belakang tetap di belakang */
+  z-index: 1; /* Menentukan urutan tumpukan agar ini di atas latar belakang */
+}
+
+.swagger-ui::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://wallpapercave.com/wp/wp14472860.png') no-repeat center center fixed;
+  background-size: cover; /* Menyesuaikan ukuran latar belakang */
+  z-index: 0; /* Menempatkan latar belakang di belakang elemen lain */
 }
 
 .swagger-ui html {
@@ -30,9 +39,23 @@ html, body {
   margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
-  .swagger-ui {
-    padding: 10px;
+.swagger-ui .topbar {
+  display: none;
+}
+
+.swagger-ui .topbar-wrapper .title {
+  font-weight: bold;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -9350,7 +9373,7 @@ html, body {
 
 .swagger-ui .parameter__type {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 600;
   padding: 5px 0;
@@ -9519,7 +9542,7 @@ html, body {
   align-items: center;
   color: #3b4151;
   display: flex;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 14px;
   font-weight: 600;
   word-break: break-word;
@@ -9906,7 +9929,7 @@ html, body {
 
 .swagger-ui .response-col_status .response-undocumented {
   color: #909090;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 11px;
   font-weight: 600;
 }
@@ -9921,7 +9944,7 @@ html, body {
 
 .swagger-ui .response-col_links .response-undocumented {
   color: #909090;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 11px;
   font-weight: 600;
 }
@@ -10631,7 +10654,7 @@ html, body {
   border: 1px solid #d9d9d9;
   border-radius: 8px;
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 14px;
   /* font-weight: 600; */
   min-height: 280px;
@@ -10648,7 +10671,7 @@ html, body {
   background: #41444e;
   border-radius: 4px;
   color: #fff;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 600;
   margin: 0;
@@ -10669,7 +10692,7 @@ html, body {
 
 .swagger-ui .checkbox p {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-style: italic;
   font-weight: 400 !important;
   font-weight: 600;
@@ -10795,7 +10818,7 @@ html, body {
 
 .swagger-ui .model {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 300;
   font-weight: 600;
@@ -11157,7 +11180,7 @@ html, body {
 
 .swagger-ui table.headers td {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 300;
   font-weight: 600;
@@ -11239,7 +11262,7 @@ html, body {
 .swagger-ui .parameter__extension,
 .swagger-ui .parameter__in {
   color: gray;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-style: italic;
   font-weight: 600;
@@ -11247,7 +11270,7 @@ html, body {
 
 .swagger-ui .parameter__deprecated {
   color: red;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-style: italic;
   font-weight: 600;
@@ -11289,7 +11312,7 @@ html, body {
 
 .swagger-ui .response__extension {
   color: gray;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-style: italic;
   font-weight: 600;
@@ -11463,7 +11486,7 @@ html, body {
 
 .swagger-ui .info .base-url {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 300 !important;
   font-weight: 600;
@@ -11586,7 +11609,7 @@ html, body {
   border-radius: 4px;
   color: red;
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 600;
   margin: 1em;
@@ -11632,7 +11655,7 @@ html, body {
 
 .swagger-ui .errors-wrapper .errors h4 {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 14px;
   font-weight: 600;
   margin: 0;
@@ -11711,7 +11734,7 @@ html, body {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   color: #9012fe;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 14px;
   font-weight: 600;
   padding: 5px 7px;
@@ -11848,7 +11871,7 @@ html, body {
   color: #3b4151;
   color: #6b6b6b;
   display: inline-block;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-style: normal;
   /* font-weight: 600; */
   line-height: 1.5;
@@ -11867,7 +11890,7 @@ html, body {
 
 .swagger-ui .json-schema-2020-12__attribute {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 10px;
   padding-left: 4px;
   text-transform: lowercase;
@@ -11931,7 +11954,7 @@ html, body {
 
 .swagger-ui .json-schema-2020-12-property .json-schema-2020-12__title {
   color: #3b4151;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 12px;
   font-weight: 600;
   vertical-align: middle;
@@ -11985,7 +12008,7 @@ html, body {
   border-radius: 4px;
   color: #3b4151;
   color: #fff;
-  font-family: monospace;
+  font-family: "Rubik Wet Paint", sans-serif;
   font-size: 9px;
   /* font-weight: 600; */
   line-height: 1.5;
